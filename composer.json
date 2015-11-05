@@ -31,7 +31,7 @@
   "extra": {
     "contao": {
       "sources": {
-        "": "system/modules/pfiss-contao-tinyMCE-minimal"
+        "": "system/modules/pfiss-contao_tinyMCE_minimal"
       }
     }
   }
