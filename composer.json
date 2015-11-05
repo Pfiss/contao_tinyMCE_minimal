@@ -1,0 +1,38 @@
+{
+  "name": "pfiss/contao_tinyMCE_minimal",
+  "description": "Simple module for contao to limit tinyMCE to it bareBones. Useful for teaching and later on when users should not have the power to format text in too many ways with the tinyMCE.",
+  "keywords": [
+    "contao",
+    "tinyMCE",
+    "minimal"
+  ],
+  "type": "contao-module",
+  "license": "LGPL-3.0+",
+  "authors": [
+    {
+      "name": "Friedrich Pfitzmann",
+      "email": "info@pfiss.com",
+      "homepage": "http://www.pfiss.com",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/Pfiss/contao_tinyMCE_minimal/issues"
+  },
+  "require": {
+    "php": ">=5.3",
+    "contao/core": ">=3.3,<4.0",
+    "contao-community-alliance/composer-plugin": "*"
+  },
+  "autoload": {
+    "classmap": [
+    ]
+  },
+  "extra": {
+    "contao": {
+      "sources": {
+        "": "system/modules/pfiss-contao-tinyMCE-minimal"
+      }
+    }
+  }
+}
