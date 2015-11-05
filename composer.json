@@ -1,5 +1,5 @@
 {
-  "name": "pfiss/contao_tinyMCE_minimal",
+  "name": "pfiss/contao_tinymce_minimal",
   "description": "Simple module for contao to limit tinyMCE to it bareBones. Useful for teaching and later on when users should not have the power to format text in too many ways with the tinyMCE.",
   "keywords": [
     "contao",
